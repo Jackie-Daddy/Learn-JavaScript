@@ -5,4 +5,14 @@ let orangeShelf = document.getElementById("orange-shelf")
 // Create a function that puts the apples onto the appleShelf
 // and the oranges onto the orangeShelf. Use a for loop,
 // a conditional statement, and the textContent property.
-
+function chooseFruit() {
+    for (let index = 0; index < fruit.length; index++) {
+        if (fruit[index] === "🍎") {
+            appleShelf.textContent += fruit[index]
+        }
+        else if (fruit[index] === "🍊") {
+            orangeShelf.textContent += fruit[index]
+        }
+    }
+}
+chooseFruit()

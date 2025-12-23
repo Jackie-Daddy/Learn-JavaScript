@@ -3,3 +3,12 @@
 // Log out at least two of the keys using the dot notation
 
 
+let castle={
+    title: "Live like a king in my castle",
+    price: 198,
+    isSuperHost: true,
+    images: ["img/castle1.png", "img/castle2.png"]
+}
+
+console.log(castle.price)
+console.log(castle.isSuperHost)
